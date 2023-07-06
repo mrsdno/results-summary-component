@@ -18,6 +18,13 @@ export default defineComponent({
 </template>
 
 <style lang="scss">
+@import '@/assets/base.scss';
+
+html,
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
 .wrapper {
   width: 100vw;
   height: 100vh;
